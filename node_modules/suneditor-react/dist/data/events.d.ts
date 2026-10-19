@@ -1,0 +1,2 @@
+export declare const events: readonly ["onMouseDown", "onScroll", "onInput", "onClick", "onKeyUp", "onKeyDown", "onFocus", "onImageUpload", "onAudioUpload", "onVideoUpload", "onImageUploadError", "onVideoUploadError", "onAudioUploadError", "onSave", "onSetToolbarButtons", "imageUploadHandler", "toggleCodeView", "toggleFullScreen", "showInline", "showController", "onCopy", "onCut", "onDrop", "onPaste"];
+export declare const uploadBeforeEvents: readonly ["onImageUploadBefore", "onVideoUploadBefore", "onAudioUploadBefore"];

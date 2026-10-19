@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('../fonts/IRANSansWeb.eot');
+  src: url('../fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/IRANSansWeb.woff2') format('woff2'),
+      url('../fonts/IRANSansWeb.woff') format('woff'),
+      url('../fonts/IRANSansWeb.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+/* font figma */
+
+@font-face {
+    font-family: 'B Traffic';
+    src: url('../fonts/BTraffic.eot');
+    src: url('../fonts/BTraffic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BTraffic.woff2') format('woff2'),
+        url('../fonts/BTraffic.woff') format('woff'),
+        url('../fonts/BTraffic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'B Traffic';
+    src: url('../fonts/BTrafficBold.eot');
+    src: url('../fonts/BTrafficBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BTrafficBold.woff2') format('woff2'),
+        url('../fonts/BTrafficBold.woff') format('woff'),
+        url('../fonts/BTrafficBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'IRANYekanWeb B Traffic', 'IRANSansWeb','Vazir';
+}
+
+/* html {
+  font-size: 16px; 
+} */
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .swiper-pagination-bullet {
+  background: rgba(177, 21, 21, 0.822) ;
+  opacity: 1;
+  width: 8;
+  height: 8;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff ;
+}
+
+ */
+
+ 
+/* ------------------- Firefox ------------------- */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(43, 140, 238, 1) transparent;
+  padding: 0;
+}
+
+/* ---------------- Chrome / Edge / Safari ---------------- */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(43, 140, 238, 0.35);
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(43, 140, 238, 0.6);
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
